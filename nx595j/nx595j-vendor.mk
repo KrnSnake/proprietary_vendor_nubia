@@ -21,17 +21,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx595j/proprietary/vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
     vendor/nubia/nx595j/proprietary/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
     vendor/nubia/nx595j/proprietary/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
-    vendor/nubia/nx595j/proprietary/vendor/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
-    vendor/nubia/nx595j/proprietary/vendor/etc/camera/csidtg_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/csidtg_camera.xml \
-    vendor/nubia/nx595j/proprietary/vendor/etc/camera/csidtg_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/csidtg_chromatix.xml \
-    vendor/nubia/nx595j/proprietary/vendor/etc/camera/imx318_arcsoft_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx318_arcsoft_chromatix.xml \
-    vendor/nubia/nx595j/proprietary/vendor/etc/camera/imx318_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx318_chromatix.xml \
-    vendor/nubia/nx595j/proprietary/vendor/etc/camera/imx362_arcsoft_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx362_arcsoft_chromatix.xml \
-    vendor/nubia/nx595j/proprietary/vendor/etc/camera/imx362_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx362_chromatix.xml \
-    vendor/nubia/nx595j/proprietary/vendor/etc/camera/imx362_chromatix_bear.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx362_chromatix_bear.xml \
-    vendor/nubia/nx595j/proprietary/vendor/etc/camera/imx362_gt24c64a_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx362_gt24c64a_chromatix.xml \
-    vendor/nubia/nx595j/proprietary/vendor/etc/camera/ov5675_aux_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov5675_aux_chromatix.xml \
-    vendor/nubia/nx595j/proprietary/vendor/etc/camera/ov5675_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov5675_chromatix.xml \
     vendor/nubia/nx595j/proprietary/vendor/etc/firmware/SCTable.asb:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/SCTable.asb \
     vendor/nubia/nx595j/proprietary/vendor/etc/firmware/TBM_D2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/TBM_D2.bin \
     vendor/nubia/nx595j/proprietary/vendor/etc/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/cpp_firmware_v1_10_0.fw \
@@ -52,7 +41,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx595j/proprietary/vendor/firmware/sub_alOtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sub_alOtp.bin \
     vendor/nubia/nx595j/proprietary/vendor/firmware/tas2555_uCDSP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tas2555_uCDSP.bin \
     vendor/nubia/nx595j/proprietary/vendor/etc/libnfc-brcm-20797b00.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-brcm-20797b00.conf \
-    vendor/nubia/nx595j/proprietary/vendor/lib/hw/camera.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8998.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libNubiaImageAlgorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libNubiaImageAlgorithm.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libPrettyWaterMark.so:$(TARGET_COPY_OUT_VENDOR)/lib/libPrettyWaterMark.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libalDU_Utility.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalDU_Utility.so \
@@ -69,12 +57,9 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx595j/proprietary/vendor/lib/libarcsoft_high_dynamic_range.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_high_dynamic_range.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libarcsoft_night_shot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_night_shot.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libarcsoft_picauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_picauto.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmm-qcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-qcamera.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_nubiacustpro.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_nubiacustpro.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmjpeg_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg_interface.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpbase.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libnubia_effect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnubia_effect.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libqomx_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_core.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libteeclientjni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libteeclientjni.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrueportrait.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libts_detected_face_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libts_detected_face_jni.so \
@@ -87,6 +72,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx595j/proprietary/vendor/lib64/libBuffer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libBuffer.so \
     vendor/nubia/nx595j/proprietary/vendor/lib64/libDualCamera_Calibration.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libDualCamera_Calibration.so \
     vendor/nubia/nx595j/proprietary/vendor/lib64/libIndependenceUtil.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libIndependenceUtil.so \
+    vendor/nubia/nx595j/proprietary/vendor/lib64/libNubiaImageAlgorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libNubiaImageAlgorithm.so \
     vendor/nubia/nx595j/proprietary/vendor/lib64/libPrettyWaterMark.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libPrettyWaterMark.so \
     vendor/nubia/nx595j/proprietary/vendor/lib64/libalParseOTP.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalParseOTP.so \
     vendor/nubia/nx595j/proprietary/vendor/lib64/libalRnB.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalRnB.so \
@@ -111,8 +97,20 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx595j/proprietary/vendor/lib64/libpanoramahelper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpanoramahelper.so \
     vendor/nubia/nx595j/proprietary/vendor/lib64/libproductinfo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libproductinfo.so \
     vendor/nubia/nx595j/proprietary/vendor/lib64/libteeclientjni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libteeclientjni.so \
+    vendor/nubia/nx595j/proprietary/vendor/lib64/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtrueportrait.so \
     vendor/nubia/nx595j/proprietary/vendor/lib64/libts_detected_face_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libts_detected_face_jni.so \
     vendor/nubia/nx595j/proprietary/vendor/lib64/libts_face_beautify_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libts_face_beautify_jni.so \
+    vendor/nubia/nx595j/proprietary/vendor/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
+    vendor/nubia/nx595j/proprietary/vendor/etc/camera/csidtg_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/csidtg_camera.xml \
+    vendor/nubia/nx595j/proprietary/vendor/etc/camera/csidtg_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/csidtg_chromatix.xml \
+    vendor/nubia/nx595j/proprietary/vendor/etc/camera/imx318_arcsoft_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx318_arcsoft_chromatix.xml \
+    vendor/nubia/nx595j/proprietary/vendor/etc/camera/imx318_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx318_chromatix.xml \
+    vendor/nubia/nx595j/proprietary/vendor/etc/camera/imx362_arcsoft_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx362_arcsoft_chromatix.xml \
+    vendor/nubia/nx595j/proprietary/vendor/etc/camera/imx362_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx362_chromatix.xml \
+    vendor/nubia/nx595j/proprietary/vendor/etc/camera/imx362_chromatix_bear.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx362_chromatix_bear.xml \
+    vendor/nubia/nx595j/proprietary/vendor/etc/camera/imx362_gt24c64a_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx362_gt24c64a_chromatix.xml \
+    vendor/nubia/nx595j/proprietary/vendor/etc/camera/ov5675_aux_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov5675_aux_chromatix.xml \
+    vendor/nubia/nx595j/proprietary/vendor/etc/camera/ov5675_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov5675_chromatix.xml \
     vendor/nubia/nx595j/proprietary/vendor/firmware/BCM20797A1_001.002.015.2562.0011_Generic_I2C_NCD_Unsigned_configdata.ncd:$(TARGET_COPY_OUT_VENDOR)/firmware/BCM20797A1_001.002.015.2562.0011_Generic_I2C_NCD_Unsigned_configdata.ncd \
     vendor/nubia/nx595j/proprietary/vendor/firmware/BCM20797B0_002.001.043.2562.0007_Generic_I2C_NCD_Unsigned_BCM20797B0_002.001.043.2562.0007_I2C_configdata.ncd:$(TARGET_COPY_OUT_VENDOR)/firmware/BCM20797B0_002.001.043.2562.0007_Generic_I2C_NCD_Unsigned_BCM20797B0_002.001.043.2562.0007_I2C_configdata.ncd \
     vendor/nubia/nx595j/proprietary/vendor/firmware/BCM20797B0_002.001.043.2562.0010_Generic_I2C_NCD_Unsigned_BCM20797B0_002.001.043.2562.0010_I2C_configdata.ncd:$(TARGET_COPY_OUT_VENDOR)/firmware/BCM20797B0_002.001.043.2562.0010_Generic_I2C_NCD_Unsigned_BCM20797B0_002.001.043.2562.0010_I2C_configdata.ncd \
@@ -128,6 +126,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx595j/proprietary/vendor/firmware/Generic_unsigned_918_1.ncd:$(TARGET_COPY_OUT_VENDOR)/firmware/Generic_unsigned_918_1.ncd \
     vendor/nubia/nx595j/proprietary/vendor/firmware/Generic_unsigned_SY.ncd:$(TARGET_COPY_OUT_VENDOR)/firmware/Generic_unsigned_SY.ncd \
     vendor/nubia/nx595j/proprietary/vendor/firmware/Generic_unsigned_fix_p2p_stuck.ncd:$(TARGET_COPY_OUT_VENDOR)/firmware/Generic_unsigned_fix_p2p_stuck.ncd \
+    vendor/nubia/nx595j/proprietary/vendor/lib/hw/camera.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8998.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libAltek_AF.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAltek_AF.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libIAFalSDE1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libIAFalSDE1.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libIQ_Match_Lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libIQ_Match_Lib.so \
@@ -169,6 +168,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx595j/proprietary/vendor/lib/libchromatix_imx318_cpp_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_cpp_bokeh.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libchromatix_imx318_cpp_electron_aperture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_cpp_electron_aperture.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libchromatix_imx318_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_cpp_hfr_120.so \
+    vendor/nubia/nx595j/proprietary/vendor/lib/libchromatix_imx318_cpp_hfr_240.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_cpp_hfr_240.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libchromatix_imx318_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_cpp_hfr_60.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libchromatix_imx318_cpp_iso128_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_cpp_iso128_preview.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libchromatix_imx318_cpp_iso128_preview_dng.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_cpp_iso128_preview_dng.so \
@@ -200,6 +200,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx595j/proprietary/vendor/lib/libchromatix_imx318_hdr_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_hdr_video_3a.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libchromatix_imx318_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_hfr_120.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libchromatix_imx318_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_hfr_120_3a.so \
+    vendor/nubia/nx595j/proprietary/vendor/lib/libchromatix_imx318_hfr_240.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_hfr_240.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libchromatix_imx318_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_hfr_60.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libchromatix_imx318_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_hfr_60_3a.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libchromatix_imx318_isp_electron_aperture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_isp_electron_aperture.so \
@@ -217,7 +218,9 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx595j/proprietary/vendor/lib/libchromatix_imx318_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_snapshot_hdr.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libchromatix_imx318_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_video_4k.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libchromatix_imx318_video_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_video_hdr.so \
+    vendor/nubia/nx595j/proprietary/vendor/lib/libchromatix_imx362_1080p_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_1080p_preview_3a.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libchromatix_imx362_1080p_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_1080p_video_3a.so \
+    vendor/nubia/nx595j/proprietary/vendor/lib/libchromatix_imx362_4k_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_4k_preview_3a.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libchromatix_imx362_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_4k_video_3a.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libchromatix_imx362_a3_3dtest_mode.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_a3_3dtest_mode.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libchromatix_imx362_a3_elec_aper_hand.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_a3_elec_aper_hand.so \
@@ -233,6 +236,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx595j/proprietary/vendor/lib/libchromatix_imx362_common_iso128.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_common_iso128.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libchromatix_imx362_cpp_electron_aperture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_cpp_electron_aperture.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libchromatix_imx362_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_cpp_hfr_120.so \
+    vendor/nubia/nx595j/proprietary/vendor/lib/libchromatix_imx362_cpp_hfr_240.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_cpp_hfr_240.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libchromatix_imx362_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_cpp_hfr_60.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libchromatix_imx362_cpp_iso128_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_cpp_iso128_preview.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libchromatix_imx362_cpp_iso128_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_cpp_iso128_snapshot.so \
@@ -253,7 +257,9 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx595j/proprietary/vendor/lib/libchromatix_imx362_cpp_video_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_cpp_video_hdr.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libchromatix_imx362_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_default_preview_3a.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libchromatix_imx362_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_default_video.so \
+    vendor/nubia/nx595j/proprietary/vendor/lib/libchromatix_imx362_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_default_video_3a.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libchromatix_imx362_fullsize_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_fullsize_preview_3a.so \
+    vendor/nubia/nx595j/proprietary/vendor/lib/libchromatix_imx362_fullsize_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_fullsize_video_3a.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libchromatix_imx362_gt24c64a_1080p_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_gt24c64a_1080p_preview_3a.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libchromatix_imx362_gt24c64a_1080p_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_gt24c64a_1080p_video_3a.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libchromatix_imx362_gt24c64a_4k_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_gt24c64a_4k_preview_3a.so \
@@ -294,6 +300,8 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx595j/proprietary/vendor/lib/libchromatix_imx362_hdr_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_hdr_video_3a.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libchromatix_imx362_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_hfr_120.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libchromatix_imx362_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_hfr_120_3a.so \
+    vendor/nubia/nx595j/proprietary/vendor/lib/libchromatix_imx362_hfr_240.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_hfr_240.so \
+    vendor/nubia/nx595j/proprietary/vendor/lib/libchromatix_imx362_hfr_240_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_hfr_240_3a.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libchromatix_imx362_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_hfr_60.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libchromatix_imx362_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_hfr_60_3a.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libchromatix_imx362_isp_electron_aperture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_isp_electron_aperture.so \
@@ -350,11 +358,14 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx595j/proprietary/vendor/lib/libchromatix_ov5675_weixin_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5675_weixin_video_3a.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libchromatix_ov5675_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5675_zsl_preview_3a.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libchromatix_ov5675_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5675_zsl_video_3a.so \
+    vendor/nubia/nx595j/proprietary/vendor/lib/libdepthmapwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdepthmapwrapper.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libdualcameraddm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdualcameraddm.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libflash_pmic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_pmic.so \
+    vendor/nubia/nx595j/proprietary/vendor/lib/libhal_dbg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhal_dbg.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libjpegdhw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdhw.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libjpegdmahw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdmahw.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libjpegehw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegehw.so \
+    vendor/nubia/nx595j/proprietary/vendor/lib/libmm-qcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-qcamera.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera2_altek_tube.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_altek_tube.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera2_c2d_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_c2d_module.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera2_cpp_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_cpp_module.so \
@@ -372,14 +383,12 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_stats_algorithm.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera2_stats_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_stats_lib.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera2_stats_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_stats_modules.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_atmel_at24c32e_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_atmel_at24c32e_eeprom.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_bokeh.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_chromaflash_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_chromaflash_lib.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_csidtg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_csidtg.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_dbg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dbg.so \
+    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_depth_map.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_depth_map.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_dummyalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dummyalgo.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_dw9761b_2d_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dw9761b_2d_eeprom.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_edgesmooth_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_edgesmooth_lib.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_eebinparse.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_eebinparse.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_eeprom_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_eeprom_util.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_eztune_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_eztune_module.so \
@@ -391,15 +400,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_hvx_grid_sum.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_hvx_grid_sum.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_imglib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imglib.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_imglib_faceproc_adspstub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imglib_faceproc_adspstub.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_imglib_faceproc_adspstub2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imglib_faceproc_adspstub2.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_imx214.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx214.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_imx230.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx230.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_imx258.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx258.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_imx258_gt24c16_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx258_gt24c16_eeprom.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_imx258_gt24c32_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx258_gt24c32_eeprom.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_imx258_mono.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx258_mono.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_imx258_mono_gt24c32_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx258_mono_gt24c32_eeprom.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_imx298.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx298.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_imx318.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx318.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_imx318_arcsoft.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx318_arcsoft.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_imx318_arcsoft_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx318_arcsoft_eeprom.so \
@@ -409,7 +409,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_imx362_arcsoft_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx362_arcsoft_eeprom.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_imx362_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx362_eeprom.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_imx362_gt24c64a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx362_gt24c64a.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_imx378.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx378.so \
+    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_interface.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_isp_abf48.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_abf48.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_isp_aec_bg_stats47.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_aec_bg_stats47.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_isp_bf_stats47.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_bf_stats47.so \
@@ -454,67 +454,19 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_isp_sce40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_sce40.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_isp_snr47.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_snr47.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_isp_sub_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_sub_module.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_le2464c_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_le2464c_eeprom.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_le2464c_master_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_le2464c_master_eeprom.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_llvd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_llvd.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_m24c64s_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_m24c64s_eeprom.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_onsemi_cat24c16_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_onsemi_cat24c16_eeprom.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_onsemi_cat24c32_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_onsemi_cat24c32_eeprom.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_onsemi_cat24c32_imx362_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_onsemi_cat24c32_imx362_eeprom.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_optizoom_lib.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_ov13850.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov13850.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_ov13850_q13v06k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov13850_q13v06k.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_ov2281.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov2281.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_ov2680.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov2680.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_ov2685.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov2685.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_ov2685_scv3b4035.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov2685_scv3b4035.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_ov4688.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov4688.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_ov4688_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov4688_eeprom.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_ov5645.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov5645.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_ov5670.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov5670.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_ov5675_aux.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov5675_aux.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_ov5675_aux_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov5675_aux_eeprom.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_ov5675_main.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov5675_main.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_ov5675_main_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov5675_main_eeprom.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_ov5695.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov5695.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_ov7251.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov7251.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_ov8856.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov8856.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_ov8858.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov8858.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_ov8865.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov8865.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_paaf_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_paaf_lib.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_pdaf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdaf.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_pdafcamif.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdafcamif.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_ppbase_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ppbase_module.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_ppeiscore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ppeiscore.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_qtech_f3l8yam_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_qtech_f3l8yam_eeprom.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_qtech_f5670bq_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_qtech_f5670bq_eeprom.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_quadracfa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_quadracfa.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_rohm_brcg064gwz_3_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_rohm_brcg064gwz_3_eeprom.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_s5k2l7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k2l7.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_s5k2l7sx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k2l7sx.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_s5k3l8.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3l8.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_s5k3l8_mono.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3l8_mono.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_s5k3m2xm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3m2xm.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_s5k3m2xx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3m2xx.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_s5k3m3sm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3m3sm.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_s5k3p3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3p3.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_s5k3p3_front_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3p3_front_eeprom.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_s5k3p3sm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3p3sm.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_s5k3p8sp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3p8sp.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_sac_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sac_lib.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_sat_dummy_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sat_dummy_lib.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_sony_imx214_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sony_imx214_eeprom.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_sony_imx298_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sony_imx298_eeprom.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_sony_imx378_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sony_imx378_eeprom.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_sonyimx135_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sonyimx135_eeprom.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_stillmore_lib.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_sunny_8865_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_8865_eeprom.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_sunny_gt24c64_imx298_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_gt24c64_imx298_eeprom.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_sunny_gt24c64_s5k2l7_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_gt24c64_s5k2l7_eeprom.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_sunny_gt24c64_s5k2l7sx_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_gt24c64_s5k2l7sx_eeprom.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_sunny_gt24c64a_imx362_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_gt24c64a_imx362_eeprom.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_sunny_q13v06k_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_q13v06k_eeprom.so \
-    vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_sunny_q5v41b_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_q5v41b_eeprom.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_sw2d_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sw2d_lib.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_thread_services.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_thread_services.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_tintless_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_algo.so \
@@ -525,10 +477,12 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tuning.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libmmcamera_tuning_lookup.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tuning_lookup.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libmmjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg.so \
+    vendor/nubia/nx595j/proprietary/vendor/lib/libmmjpeg_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg_interface.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libmmqjpeg_codec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpeg_codec.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libmmqjpegdma.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpegdma.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libois_lc898122.so:$(TARGET_COPY_OUT_VENDOR)/lib/libois_lc898122.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/liboptizoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboptizoom.so \
+    vendor/nubia/nx595j/proprietary/vendor/lib/libqomx_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_core.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libqomx_jpegdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegdec.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libqomx_jpegenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc.so \
     vendor/nubia/nx595j/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc_pipe.so \
