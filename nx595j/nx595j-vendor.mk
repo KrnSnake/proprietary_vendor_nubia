@@ -23,16 +23,16 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx595j/proprietary/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
     vendor/nubia/nx595j/proprietary/vendor/etc/firmware/SCTable.asb:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/SCTable.asb \
     vendor/nubia/nx595j/proprietary/vendor/etc/firmware/TBM_D2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/TBM_D2.bin \
-    vendor/nubia/nx595j/proprietary/vendor/etc/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/cpp_firmware_v1_10_0.fw \
-    vendor/nubia/nx595j/proprietary/vendor/etc/firmware/cpp_firmware_v1_12_0.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/cpp_firmware_v1_12_0.fw \
-    vendor/nubia/nx595j/proprietary/vendor/etc/firmware/cpp_firmware_v1_1_1.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/nubia/nx595j/proprietary/vendor/etc/firmware/cpp_firmware_v1_1_6.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/nubia/nx595j/proprietary/vendor/etc/firmware/cpp_firmware_v1_2_0.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/nubia/nx595j/proprietary/vendor/etc/firmware/cpp_firmware_v1_4_0.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/cpp_firmware_v1_4_0.fw \
-    vendor/nubia/nx595j/proprietary/vendor/etc/firmware/cpp_firmware_v1_5_0.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/cpp_firmware_v1_5_0.fw \
-    vendor/nubia/nx595j/proprietary/vendor/etc/firmware/cpp_firmware_v1_5_2.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/cpp_firmware_v1_5_2.fw \
-    vendor/nubia/nx595j/proprietary/vendor/etc/firmware/cpp_firmware_v1_6_0.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/cpp_firmware_v1_6_0.fw \
-    vendor/nubia/nx595j/proprietary/vendor/etc/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/cpp_firmware_v1_8_0.fw \
+    vendor/nubia/nx595j/proprietary/vendor/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_10_0.fw \
+    vendor/nubia/nx595j/proprietary/vendor/firmware/cpp_firmware_v1_12_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_12_0.fw \
+    vendor/nubia/nx595j/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_1.fw \
+    vendor/nubia/nx595j/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/nubia/nx595j/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/nubia/nx595j/proprietary/vendor/firmware/cpp_firmware_v1_4_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_4_0.fw \
+    vendor/nubia/nx595j/proprietary/vendor/firmware/cpp_firmware_v1_5_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_0.fw \
+    vendor/nubia/nx595j/proprietary/vendor/firmware/cpp_firmware_v1_5_2.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_2.fw \
+    vendor/nubia/nx595j/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_6_0.fw \
+    vendor/nubia/nx595j/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_8_0.fw \
     vendor/nubia/nx595j/proprietary/vendor/firmware/leia_pfp_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pfp_470.fw \
     vendor/nubia/nx595j/proprietary/vendor/firmware/leia_pm4_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pm4_470.fw \
     vendor/nubia/nx595j/proprietary/vendor/firmware/main_alOtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/main_alOtp.bin \
